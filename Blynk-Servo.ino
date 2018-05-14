@@ -4,10 +4,10 @@
 #include <Servo.h> //see this documentation for library syntax and examples: https://www.arduino.cc/en/Reference/Servo
 
 
-//char auth[] = "7eaee44698f54dd8a9fc65876bd8d32c"; //Pfost phone
-char auth[] = "6c6a2ae8df98407d86a14d5fd1495081"; //Cramer phone
-char ssid[] = "FAHotspot";
-char pass[] = "AtlantaSymphony123";
+
+char auth[] = "YOUR AUTH TOKEN HERE";
+char ssid[] = "ssid";
+char pass[] = "PASSWORD";
 
 void setup (){
   Servo myservo;
